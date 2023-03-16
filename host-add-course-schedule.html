@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>YLanes</title>
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+      <link href="css/responsive.css" rel="stylesheet">
+      <link href="css/font-awesome/all.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/select2.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css/cale1.css">
+      <link rel='stylesheet' href='css/jquery-clockpicker.min.css'>
+      <link rel="stylesheet" href="css/jquery-ui1.css">
+   </head>
+   <body>
+      <header class="header_sec header_box_shw header_login">
+         <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light nav_top">
+               <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo" /></a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                  <!-- <ul class="mr-auto">
+                     </ul> -->
+                  <ul class="navbar-nav menu_sec">
+                     <li class="dropdown">
+                        <a href="#">Wellness</a>
+                        <span class="dropdown-toggle drop-arw" data-toggle="dropdown"><img src="images/drop.png" alt=""> </span>
+                        <ul class="dropdown-menu">
+                           <li><a href="#url">Option1</a></li>
+                           <li><a href="#url">Option2</a></li>
+                        </ul>
+                     </li>
+                     <li class="dropdown">
+                        <a href="#">Lifestyle</a>
+                        <span class="dropdown-toggle drop-arw" data-toggle="dropdown"><img src="images/drop.png" alt=""> </span>
+                        <ul class="dropdown-menu">
+                           <li><a href="#url">Option1</a></li>
+                           <li><a href="#url">Option2</a></li>
+                        </ul>
+                     </li>
+                     <li class="dropdown">
+                        <a href="#">Arts & skills</a>
+                        <span class="dropdown-toggle drop-arw" data-toggle="dropdown"><img src="images/drop.png" alt=""> </span>
+                        <ul class="dropdown-menu">
+                           <li><a href="#url">Option1</a></li>
+                           <li><a href="#url">Option2</a></li>
+                        </ul>
+                     </li>
+                     <li class="dropdown">
+                        <a href="#">Training and courses</a>
+                        <span class="dropdown-toggle drop-arw" data-toggle="dropdown"><img src="images/drop.png" alt=""> </span>
+                        <ul class="dropdown-menu">
+                           <li><a href="#url">Option1</a></li>
+                           <li><a href="#url">Option2</a></li>
+                        </ul>
+                     </li>
+                     <li class="dropdown">
+                        <a href="#">Tuitions</a>
+                        <span class="dropdown-toggle drop-arw" data-toggle="dropdown"><img src="images/drop.png" alt=""> </span>
+                        <ul class="dropdown-menu">
+                           <li><a href="#url">Option1</a></li>
+                           <li><a href="#url">Option2</a></li>
+                        </ul>
+                     </li>
+                     <li class="dropdown">
+                        <a href="#">Live events</a>
+                        <span class="dropdown-toggle drop-arw" data-toggle="dropdown"><img src="images/drop.png" alt=""> </span>
+                        <ul class="dropdown-menu">
+                           <li><a href="#url">Option1</a></li>
+                           <li><a href="#url">Option2</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </div>
+               <div class="af_log_dv">
+                  <em href="#url" id="profidrop" >
+                  <b><img src="images/uplod_pc.png" alt=""> Avishek </b><span><img src="images/drop.png" alt=""></span>
+                  </em>
+                  <div class="profidropdid" id="profidropdid">
+                     <ul>
+                        <li><a href="host-dashboard.html">Dashboard</a></li>
+                        <li><a href="host-edit-profile-personal-info.html">My Profile </a></li>
+                        <li><a href="host-add-course-basic-info.html">Add Courses</a></li>
+                        <li><a href="host-course-list.html">My Courses</a></li>
+                        <li><a href="host-class.html">My Classes</a></li>
+                        <li><a href="host-payment-history.html">Payment History </a></li>
+                        <li><a href="host-rating&review.html">Rating & Review</a></li>
+                        <li><a href="login.hrml">Logout</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </nav>
+         </div>
+      </header>
+      <div class="mar_top"></div>
+      <section class="host_dashboard_sec">
+         <div class="container">
+            <div class="host_dashboard_inr">
+               <div class="host_dashboard_left">
+                  <div class="mobile_menu"> <i class="fa fa-bars"></i>
+                     <span>Show Menu</span>
+                  </div>
+                  <div class="host_dash_left_inr" id="mobile_menu_dv">
+                     <div class="host_dash_pro_pic">
+                        <em><img src="images/host_dash_pic.jpg" alt=""></em>
+                        <h5>Sayanti Das</h5>
+                        <b>dummyemail55@gmail.com</b>
+                     </div>
+                     <div class="host_dash_left_list">
+                        <ul>
+                           <li>
+                              <a href="host-dashboard.html"><em><img src="images/host_dash1.png" alt=""></em>Dashboard</a>
+                           </li>
+                           <li>
+                              <a href="host-edit-profile-personal-info.html"><em><img src="images/host_dash2.png" alt=""></em>My Profile</a>
+                           </li>
+                           <li>
+                              <a href="host-add-course-basic-info.html" class="actv"><em><img src="images/host_dash3.png" alt=""></em>Add Courses</a>
+                           </li>
+                           <li>
+                              <a href="host-course-list.html"><em><img src="images/host_dash4.png" alt=""></em>My Courses</a>
+                           </li>
+                           <li>
+                              <a href="host-class.html"><em><img src="images/host_dash5.png" alt=""></em>My Classes</a>
+                           </li>
+                           <li>
+                              <a href="host-payment-history.html"><em><img src="images/host_dash6.png" alt=""></em>Payment History</a>
+                           </li>
+                           <li>
+                              <a href="host-rating&review.html"><em><img src="images/host_dash7.png" alt=""></em>Rating &amp; Review</a>
+                           </li>
+                           <li>
+                              <a href="#"><em><img src="images/host_dash8.png" alt=""></em>Logout</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="host_dashboard_right">
+                  <div class="host_dash_right_inr">
+                     <div class="heading-info">
+                        <h1>Add Courses </h1>
+                        <img src="images/arowyf1rigg.png"> 
+                        <h2>Course Schedule</h2>
+                     </div>
+                     <div class="tab_das_sec">
+                        <ul>
+                           <li><a href="host-add-course-basic-info.html" class="activ"> <img src="images/ticka.png" class="tickimg"> Course Info</a></li>
+                           <li><a href="host-add-course-schedule.html"  class="activ">Course Schedule</a></li>
+                           <li><a href="host-add-bulk-pricing.html">Bulk Pricing</a></li>
+                           <li><a href="host-add-course-date-exclusion.html">Date Exclusions</a></li>
+                        </ul>
+                     </div>
+                     <div class="dashboard_form">
+                        <form>
+                           <div class="row">
+                              <div class="col-md-12 col-sm-12 col-12 " >
+                                 <div class="row">
+                                    <div class="col-md-4 col-sm-6 col-12">
+                                       <div class="input_bx">
+                                          <label>Start Time</label>
+                                          <select>
+                                             <option>06:30</option>
+                                             <option>07:00</option>
+                                             <option>07:30</option>
+                                             <option>08:00</option>
+                                             <option>08:30</option>
+                                             <option>09:00</option>
+                                             <option>09:30</option>
+                                             <option>10:00</option>
+                                             <option>10:30</option>
+                                             <option>11:00</option>
+                                             <option>11:30</option>
+                                          </select>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-12">
+                                       <div class="input_bx">
+                                          <label>End Time </label>
+                                          <select>
+                                             <option>06:30</option>
+                                             <option>07:00</option>
+                                             <option>07:30</option>
+                                             <option>08:00</option>
+                                             <option>08:30</option>
+                                             <option>09:00</option>
+                                             <option>09:30</option>
+                                             <option>10:00</option>
+                                             <option>10:30</option>
+                                             <option>11:00</option>
+                                             <option>11:30</option>
+                                          </select>
+                                       </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                       <h4 class="das_tital mt-4">Recurrence Pattern</h4>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 col-12" >
+                                       <div class="input_bx">
+                                          <label>Session On</label>
+                                          <div class="redio_bx">
+                                                   <label class="radio">
+                                                   <input id="radioda" type="radio" name="radio-opn2" >
+                                                   <span class="outer"><span class="inner"></span></span>Daily 
+                                                   </label>
+                                                </div>
+                                                <div class="redio_bx">
+                                                   <label class="radio">
+                                                   <input id="radiowe" type="radio" name="radio-opn2">
+                                                   <span class="outer"><span class="inner"></span></span>weekly 
+                                                   </label>
+                                                </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-8 col-sm-6 col-12 new-daily"  style="display: none;">
+                                       <div class="row">
+                                          <div class="col-md-6 col-sm-12 col-12" >
+                                             <div class="input_bx">
+                                                <label></label>
+                                                <div class="redio_bx flat-none dfles">
+                                                   <label class="radio">
+                                                   <input id="radio15" type="radio" name="radio-opn1" >
+                                                   <span class="outer"><span class="inner"></span></span>Every 
+                                                   </label>
+
+                                                   <div class="inputss">
+                                                      <input type="text" name="">
+                                                      <label>Days</label>
+                                                   </div>
+
+
+                                                </div>
+                                                <div class="redio_bx flat-none">
+                                                   <label class="radio">
+                                                   <input id="radio16" type="radio" name="radio-opn1">
+                                                   <span class="outer"><span class="inner"></span></span>Every weekday 
+                                                   </label>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-sm-12 col-12 new-weekly" style="display: none;">
+                                       <div class="row">
+                                          <div class="col-xl-4 col-md-5 col-sm-6 col-12" >
+                                             <div class="input_bx">
+                                                <div class="input-spans">
+                                                <span>Recur every </span> <input type="text" name="" placeholder="Enter "> <span>weeks on :</span>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-md-12 col-sm-12 col-12" >
+                                             <ul class="category-ul new_ul_days">
+                                                <li>
+                                                   <input type="checkbox" id="chec1"  name="checkbox">
+                                                   <label for="chec1">Monday</label>  
+                                                </li>
+                                                <li>
+                                                   <input type="checkbox" id="chec2" name="checkbox">
+                                                   <label for="chec2">Tuesday</label>   
+                                                </li>
+                                                <li>
+                                                   <input type="checkbox" id="chec3" name="checkbox">
+                                                   <label for="chec3">Wednesday </label>   
+                                                </li>
+                                                <li>
+                                                   <input type="checkbox" id="chec4" name="checkbox">
+                                                   <label for="chec4">Thursday</label> 
+                                                </li>
+                                                <li>
+                                                   <input type="checkbox" id="chec5" name="checkbox">
+                                                   <label for="chec5">Friday</label>   
+                                                </li>
+                                                <li>
+                                                   <input type="checkbox" id="chec6" name="checkbox">
+                                                   <label for="chec5">Saturday</label>   
+                                                </li>
+                                                <li>
+                                                   <input type="checkbox" id="chec7" name="checkbox">
+                                                   <label for="chec5">Sunday</label>   
+                                                </li>
+                                             </ul>
+                                          </div>
+                                          
+                                       </div>
+                                    </div>
+
+                                    <div class="col-sm-12">
+                                             <h4 class="das_tital mt-4">Recurrence Range</h4>
+                                          </div>
+                                          <div class="col-md-4 col-sm-6 col-12" >
+                                             <div class="input_bx">
+                                                <label>Start Date</label>
+                                                <div class="dash-d">
+                                                   <input type="text" placeholder="Select date" id="datepicker3">
+                                                   <span class="over_llp1"><img src="images/cala.png" alt=""></span>
+                                                </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-sm-12">
+                                           <div class="row">
+                                          <div class="col-md-4 col-sm-6 col-12" >
+                                            
+                                                
+                                             <div class="input_bx">
+                                               
+                                                <div class="redio_bx newstend flat-none dfles">
+                                                   <label class="radio">
+                                                   <input id="radio23" type="radio" name="radio-opn4" >
+                                                   <span class="outer"><span class="inner"></span></span>End by
+                                                   </label>
+
+                                                   <div class="inputss">
+                                                      <select>
+                                                         <option>Friday 10.12.2021</option>
+                                                         <option>Saturday 11.12.2021</option>
+                                                         <option>Sunday 12.12.2021</option>
+                                                      </select>         
+                                                   </div>
+
+
+                                                </div>
+                                                <div class="redio_bx newstend flat-none dfles">
+                                                   <label class="radio">
+                                                      <input id="radio22" type="radio" name="radio-opn4">
+                                                      <span class="outer"><span class="inner"></span></span>End After
+                                                   </label>
+                                                   <div class="inputss">
+                                                      <input type="text" name="">
+                                                      <label>occurences</label>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             </div>
+                                             </div>
+                                          </div>
+                                          <div class="col-sm-12">
+                                          <div class="dashboard_btn_step justify-content-end">
+                                             
+                                             <button class="pg_btn">Save</button>
+                                          </div>
+                                       </div>
+
+                                 </div>
+
+
+                                 <h4 class="das_tital mt-1">Current Schedule</h4>
+                                 <div class="">
+                                    <!-- Nav tabs -->
+                                    <div class="custom-table">
+                                       <div class="new-table-mr">
+
+                                          <div class="table-type-display">
+                                             <div>
+                                                <p><b>Session On:</b> Weekly</p>
+                                                <p><b>Time:</b> 10:30am - 11am</p>
+                                             </div>
+                                             <div>
+                                                <p><b>Recur every weeks on:</b> 2</p>
+                                                <p><b>Days:</b> Monday , Wednesday</p>
+                                             </div>
+                                             <div>
+                                                <p><b>Start Date:</b> 20.12.2021</p>
+                                                <p><b>End by:</b> Saturday 08.01.2022</p>
+                                             </div>
+                                             <div>
+                                                <div class="cell1 tab_head_sheet_1">
+                                                   
+                                                   <div class="add_ttrr actions-main text-center">
+                                                      <a href="javascript:void(0);" class="action-dots" id="action2"><img src="./images/action-dots.png" alt=""></a>
+                                                      <div class="show-actions" id="show-action2" style="display: none;">
+                                                         <ul class="text-left">
+                                                            <li><a href="#">Edit  </a></li>
+                                                            <li><a href="#">Delete</a></li>
+                                                         </ul>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+
+                                          <div class="table-type-display">
+                                             <div>
+                                                <p><b>Session On:</b> Daily</p>
+                                                <p><b>Time:</b> 11:00am - 11:30am</p>
+                                             </div>
+                                             <div>
+                                                <p><b>Every: </b> 2 Days</p>
+                                                
+                                             </div>
+                                             <div>
+                                                <p><b>Start Date:</b> 22.12.2021</p>
+                                                <p><b>End by:</b> Sunday 09.01.2022</p>
+                                             </div>
+                                             <div>
+                                                <div class="cell1 tab_head_sheet_1">
+                                                   
+                                                   <div class="add_ttrr actions-main text-center">
+                                                      <a href="javascript:void(0);" class="action-dots" id="action1"><img src="./images/action-dots.png" alt=""></a>
+                                                      <div class="show-actions" id="show-action1" style="display: none;">
+                                                         <ul class="text-left">
+                                                            <li><a href="#">Edit  </a></li>
+                                                            <li><a href="#">Delete</a></li>
+                                                         </ul>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+
+                                          <div class="table-type-display">
+                                             <div>
+                                                <p><b>Session On:</b> Weekly</p>
+                                                <p><b>Time:</b> 12:30pm - 01:00pm</p>
+                                             </div>
+                                             <div>
+                                                <p><b>Recur every weeks on:</b> 2</p>
+                                                <p><b>Days:</b> Tuesday , Sunday</p>
+                                             </div>
+                                             <div>
+                                                <p><b>Start Date:</b> 14.12.2021</p>
+                                                <p><b>End by:</b> Sunday 09.01.2022</p>
+                                             </div>
+                                             <div>
+                                                <div class="cell1 tab_head_sheet_1">
+                                                   
+                                                   <div class="add_ttrr actions-main text-center">
+                                                      <a href="javascript:void(0);" class="action-dots" id="action3"><img src="./images/action-dots.png" alt=""></a>
+                                                      <div class="show-actions" id="show-action3" style="display: none;">
+                                                         <ul class="text-left">
+                                                            <li><a href="#">Edit  </a></li>
+                                                            <li><a href="#">Delete</a></li>
+                                                         </ul>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+
+                                          <div class="table-type-display">
+                                             <div>
+                                                <p><b>Session On:</b> Weekly</p>
+                                                <p><b>Time:</b> 10:30am - 11am</p>
+                                             </div>
+                                             <div>
+                                                <p><b>Recur every weeks on:</b> 1</p>
+                                                <p><b>Days:</b> Saturday</p>
+                                             </div>
+                                             <div>
+                                                <p><b>Start Date:</b> 18.12.2021</p>
+                                                <p><b>End by:</b> Saturday 08.01.2022</p>
+                                             </div>
+                                             <div>
+                                                <div class="cell1 tab_head_sheet_1">
+                                                   
+                                                   <div class="add_ttrr actions-main text-center">
+                                                      <a href="javascript:void(0);" class="action-dots" id="action5"><img src="./images/action-dots.png" alt=""></a>
+                                                      <div class="show-actions" id="show-action5" style="display: none;">
+                                                         <ul class="text-left">
+                                                            <li><a href="#">Edit  </a></li>
+                                                            <li><a href="#">Delete</a></li>
+                                                         </ul>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-sm-12">
+                                 <div class="dashboard_btn_step">
+                                    <div class="step_das">
+                                       <button class="dorder_btn">Back</button>
+                                       <span>Step 2 of 3</span>
+                                    </div>
+                                    <button class="pg_btn">Save &amp; Continue</button>
+                                 </div>
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer class="foot_sec foot_bdr">
+         <div class="foot_top">
+            <div class="container">
+               <div class="foot_top_inr">
+                  <div class="row">
+                     <div class="col-sm-3">
+                        <div class="foot_bx">
+                           <div class="foot_logo">
+                              <img src="images/logo1.png" alt="">
+                           </div>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis nunc eu eros tincidunt eleifend at ut dui. Sed sit amet congue diam Nam facilisis maximus imperdiet posuere.<span class="moretext2" style="display: none;">Lorem ipsum dolor sit amet, consectetur text suspendisse pharetra erat consectetur text </span>
+                           </p>
+                           <a href="#url" class="pg_btn red_btn"> <span id="moreless-button2">Learn more</span> <i class="fa fa-angle-right"></i></a>
+                        </div>
+                     </div>
+                     <div class="col-sm-3">
+                        <div class="foot_bx">
+                           <h4>Quick Links</h4>
+                           <ul>
+                              <li><a href="index.html">Home</a></li>
+                              <li><a href="about-us.html">About us</a></li>
+                              <li><a href="login.html">Login</a></li>
+                              <li><a href="guest-sign-up.html">Sign up</a></li>
+                              <li><a href="host-sign-up-step1.html">Host Sign up</a></li>
+                              <li><a href="#url">How it works</a></li>
+                              <li><a href="contact-us.html">Contact us</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-sm-3">
+                        <div class="foot_bx">
+                           <h4>Categories</h4>
+                           <ul>
+                              <li><a href="#url">Wellness</a></li>
+                              <li><a href="#url">Lifestyle</a></li>
+                              <li><a href="#url">Arts and skills</a></li>
+                              <li><a href="#url">Training and courses</a></li>
+                              <li><a href="#url">Tuitions</a></li>
+                              <li><a href="#url">Live events</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-sm-3">
+                        <div class="foot_bx">
+                           <h4>Contact Info</h4>
+                           <ul>
+                              <li>Address :<br>
+                                 This is s simply dummy text or address text here show here
+                              </li>
+                              <li class="foot_cls">
+                                 Phone : <a href="tel:919876543210">+91 9876543210  /  </a><br>
+                                 <a href="tel:911234567890">+91 1234567890</a>
+                              </li>
+                              <li>Email : <a href="mailto:ylanes-info@gmail.com">ylanes-info@gmail.com </a></li>
+                           </ul>
+                        </div>
+                        <div class="foot_bx_soc">
+                           <ul>
+                              <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                              <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                              <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                              <li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="foot_botom">
+            <div class="container">
+               <div class="foot_botom_inr">
+                  <li>Copyright © 2021 <a href="index.html">www.YLanes.com</a></li>
+                  <li>All rights reserved</li>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <div class="foot_arw fixed">
+         <a href="javascript:" id="return-to-top"><img src="images/foot_ar_bot.png" alt=""></a>
+      </div>
+      <!-- Bootstrap core JavaScript -->
+      <script src="js/jquerymin.js"></script>
+      <script src="js/bootstrap.js"></script>
+      <script src="js/custom.js"></script>
+      <script src="js/custom-file-input.js"></script>
+      <script src="js/bundle.min.js"></script>
+      <script src="js/jquery-ui.js"></script>
+      <script src="js/calendar.js"></script>
+      <link rel='stylesheet' href='css/jquery-clockpicker.min.css'>
+      <script src='https://weareoutman.github.io/clockpicker/dist/jquery-clockpicker.min.js'></script>
+      <script>
+         $(function() {
+                  $("#datepicker").datepicker();
+              });
+              $(function() {
+                  $("#datepicker2").datepicker();
+              });
+              $(function() {
+                  $("#datepicker3").datepicker();
+              });
+         
+      </script>
+      <script>
+         $("input[name=time]").clockpicker({
+             placement: 'bottom',
+             align: 'left',
+             autoclose: true,
+             default: 'now',
+             donetext: "Select",
+             init: function() {
+                 console.log("colorpicker initiated");
+             },
+             beforeShow: function() {
+                 console.log("before show");
+             },
+             afterShow: function() {
+                 console.log("after show");
+             },
+             beforeHide: function() {
+                 console.log("before hide");
+             },
+             afterHide: function() {
+                 console.log("after hide");
+             },
+             beforeHourSelect: function() {
+                 console.log("before hour selected");
+             },
+             afterHourSelect: function() {
+                 console.log("after hour selected");
+             },
+             beforeDone: function() {
+                 console.log("before done");
+             },
+             afterDone: function() {
+                 console.log("after done");
+             }
+         });
+      </script>
+   </body>
+</html>
